@@ -1,73 +1,32 @@
-# React + TypeScript + Vite
+# MediCare: A One-Stop Digital Healthcare Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The MediCare project is a technology-driven healthcare access system designed to address systemic inefficiencies in rural and semi-urban public healthcare delivery, with a specific focus on the Pimpri-Chinchwad Municipal Corporation (PCMC) region in Pune.
 
-Currently, two official plugins are available:
+The architecture consists of multiple layers: a Telephony/IVR Layer for user interaction, a Conversational Logic Engine for processing requests, a Backend Server for scheduling and routing, and a centralized database that maintains patient records, doctor schedules, and appointment data. Additionally, a web-based dashboard enables hospital staff to manage operations efficiently, reducing administrative overhead.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Screenshots of Website:
+### Dashboard & Authentication-
+<img width="1863" height="955" alt="image" src="https://github.com/user-attachments/assets/63b5bbce-04ed-41ef-b58b-f6e0654f06be" />
+<img width="886" height="851" alt="image" src="https://github.com/user-attachments/assets/c3866984-63a3-49be-856d-7175cb5dfdce" />
+<img width="635" height="757" alt="image" src="https://github.com/user-attachments/assets/058f10ae-2436-49f3-951e-9a7f6595f030" />
 
-## React Compiler
+### Real-Time Appointment Booking-
+<img width="1885" height="963" alt="image" src="https://github.com/user-attachments/assets/ad9611cf-70de-4145-9485-1208e49eb632" />
+<img width="865" height="920" alt="image" src="https://github.com/user-attachments/assets/17b1200d-a8da-4338-9c35-127f241a63d7" />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Staff Dashboard-
+<img width="1900" height="866" alt="image" src="https://github.com/user-attachments/assets/d0c8b4ec-d6fa-4f0e-81ea-f30a67ea7ff4" />
 
-## Expanding the ESLint configuration
+### Doctor Dashboard-
+<img width="1878" height="973" alt="image" src="https://github.com/user-attachments/assets/5f5baf3a-79c1-44a2-b0ba-e2944d3abf8b" />
+<img width="1875" height="985" alt="image" src="https://github.com/user-attachments/assets/aaeb21a6-ce07-4107-8aa0-9a2aadcae9a3" />
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### ~ Made by Parul Sharma & Laxmi
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+
